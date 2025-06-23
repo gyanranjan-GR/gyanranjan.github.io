@@ -1,15 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First GitHub Website</title>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Researcher Profile</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    h1 { color: #4CAF50; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: #1a1a1a;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5rem;
+    }
+    .card {
+      background-color: #1f1f1f;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1a1a1a;
+      color: #777;
+    }
+    a {
+      color: #4fc3f7;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Website!</h1>
-  <p>This site is hosted with GitHub Pages.</p>
+  <header>
+    <h1>Dr. Firstname Lastname</h1>
+    <p>Postdoctoral Researcher | Molecular Biology & Cardiovascular Genomics</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am a postdoctoral researcher studying the role of non-coding RNAs and kinase signaling in vascular biology and atherosclerosis.
+        My research integrates genomics, CRISPR screening, and computational biology to uncover novel regulatory mechanisms in cardiovascular disease.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research Interests</h2>
+    <div class="card">
+      <ul>
+        <li>Long non-coding RNAs in cardiovascular disease</li>
+        <li>Kinase-lncRNA interaction networks</li>
+        <li>Single-cell transcriptomics (CROP-seq)</li>
+        <li>Vascular smooth muscle and endothelial cell biology</li>
+        <li>RNA therapeutics and gene regulation</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+    <div class="card">
+      <p><strong>Doe J, Smith A, <em>Lastname F</em></strong>. Title of Paper. <i>Journal Name</i>, Year.</p>
+      <p><strong><em>Lastname F</em>, et al.</strong> Another Publication Title. <i>Nature Cardiovascular Research</i>, Year.</p>
+      <p><a href="#">View all publications on Google Scholar</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: gyan.ranjan2197@gmail.com</p>
+      <p>Lab Website: <a href="#">www.researchlab.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Dr. Gyan Ranjan. All rights reserved.
+  </footer>
 </body>
 </html>
